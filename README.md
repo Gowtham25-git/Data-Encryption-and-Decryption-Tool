@@ -1,18 +1,14 @@
-# 🔐 Data Encryption and Decryption Tool
+Data Encryption and Decryption Tool
 
 A Python-based cryptography project that demonstrates secure message encryption and decryption using the Caesar Cipher algorithm. The tool helps users understand fundamental cryptographic concepts by transforming plaintext into encrypted ciphertext and recovering the original message through decryption.
 
----
-
-## 📖 Overview
+Overview
 
 Data security is a critical aspect of modern computing. Encryption protects sensitive information by converting readable data into an unreadable format, while decryption restores the original information using a predefined key.
 
 This project implements the **Caesar Cipher**, one of the simplest and most well-known encryption techniques, to demonstrate the core principles of cryptography.
 
----
-
-## ✨ Features
+Features
 
 * Encrypts plain text messages
 * Decrypts encrypted messages
@@ -22,37 +18,12 @@ This project implements the **Caesar Cipher**, one of the simplest and most well
 * Simple command-line interface
 * Lightweight and beginner-friendly implementation
 
----
-
-## 🛠 Technologies Used
+ Technologies Used
 
 * Python 3.x
 * Built-in Python Functions
 * Character Encoding (ASCII/Unicode)
 
----
-
-## 📂 Project Structure
-
-```text
-Data-Encryption-Decryption-Tool/
-│
-├── encryption.py
-├── README.md
-│
-└── requirements.txt (optional)
-```
-
----
-
-## ⚙️ Installation
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/your-username/data-encryption-decryption-tool.git
-cd data-encryption-decryption-tool
-```
 
 ### Requirements
 
@@ -62,7 +33,7 @@ No external libraries are required.
 
 ---
 
-## ▶️ Usage
+Usage
 
 Run the program:
 
@@ -85,7 +56,7 @@ Decrypted Message: HELLO
 
 ---
 
-## 🔍 How It Works
+ How It Works
 
 ### Encryption Process
 
@@ -101,9 +72,7 @@ Decrypted Message: HELLO
 3. Recover the original message.
 4. Display the plaintext.
 
----
-
-## 🔑 Caesar Cipher Concept
+ Caesar Cipher Concept
 
 The Caesar Cipher is a substitution cipher where each letter is shifted by a fixed number of positions in the alphabet.
 
@@ -127,7 +96,7 @@ HELLO → KHOOR
 
 ---
 
-## 📊 Example
+ Example
 
 ### Input
 
@@ -142,17 +111,16 @@ Encrypted Message: KHOOR
 Decrypted Message: HELLO
 ```
 
----
 
-## 🔒 Security Note
+Security Note
 
 The Caesar Cipher is useful for educational purposes and understanding the fundamentals of encryption. However, it is not considered secure for protecting sensitive data because it can be easily broken using brute-force or frequency analysis techniques.
 
 For real-world applications, modern encryption standards such as AES and RSA should be used.
 
----
 
-## 🎯 Learning Outcomes
+
+ Learning Outcomes
 
 * Understanding encryption and decryption concepts
 * Learning the basics of cryptography
@@ -160,9 +128,8 @@ For real-world applications, modern encryption standards such as AES and RSA sho
 * Understanding data confidentiality principles
 * Exploring security versus performance trade-offs
 
----
 
-## 🚀 Future Improvements
+ Future Improvements
 
 * AES Encryption
 * RSA Encryption
@@ -174,8 +141,8 @@ For real-world applications, modern encryption standards such as AES and RSA sho
 * Encrypted File Storage
 * Message Integrity Verification
 
----
 
-## 📜 License
+
+ License
 
 This project is intended for educational and learning purposes.
